@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>AI BASED DISCOURSE IN BANKING INDUSTRY</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+
+<body>
+    <header>
+        <div class="main">
+
+            <div class = "toprow"> 
+                <div class = "heading">
+                    <h2 class="textlogo"> BANKING CHATBOT </h2>
+                </div>
+    
+                <div class="bars">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ACCOUNTS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="proname">
+                <h1 class="title">AI BASED DISCOURSE FOR  BANKING INDUSTRY</h1>
+                <p class="subtext">A chatbot capable of answering queries related to banking</p>
+            </div>
+
+            <div class="teamdetails">
+                <p class="details">
+                    TEAM ID: PNT2022TMID35481<br>
+                    TEAM MEMBERS:<br>
+                    <span class="tab"></span> 1. Rifa S <br>
+                    <span class="tab"></span> 2. Pavithra M <br>
+                    <span class="tab"></span> 3. Bhagyashree P <br>
+                    <span class="tab"></span> 4. Hariprasannan S <br>
+                </p>
+            </div>
+            
+        </div>
+    </header>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "aa088be7-25b3-4bca-821a-e4af480ebd86", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "9151edad-af91-435d-a271-1a97363bf779", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+
+</body>
+
+</html>
